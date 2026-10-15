@@ -1,0 +1,5 @@
+system,sampling,integration_steps_retained,effective_dt,observations,occupied_bins,inferred_minima
+double_well,dense,1,0.01,60001,30,2
+double_well,sparse,225,2.25,267,11,1
+ou,dense,1,0.01,60001,30,1
+ou,sparse,225,2.25,267,10,1

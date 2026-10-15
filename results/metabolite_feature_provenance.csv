@@ -1,0 +1,10 @@
+analysis_feature,source_column,matching_rule,status
+cholate,cholate,exact column name,canonical
+glycocholate,glycocholate,exact column name,canonical
+imidazolelactate,imidazolelactate,exact column name,canonical
+indole-3-propionate,indole-3-propionate,exact column name,canonical
+lactate,lactate,exact column name,canonical
+lithocholate,lithocholate,exact column name,canonical
+propionate_y,propionate_y,exact column name,canonical
+succinate,succinate,exact column name,canonical
+aux_lactate_z (legacy),imidazolelactate,legacy unanchored substring search,renamed aux_imidazolelactate_z and excluded from canonical models

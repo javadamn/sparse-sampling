@@ -1,0 +1,5 @@
+stage,subjects,provenance
+supplied broad source table,106,observed
+at least 6 usable transitions in broad table,10,computed diagnostic
+at least 7 usable transitions in broad table,4,computed diagnostic
+canonical cohort selected by at least 7 usable transitions,4,computed; configured IDs must match rule exactly

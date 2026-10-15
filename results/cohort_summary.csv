@@ -1,0 +1,2 @@
+subjects,median_samples_per_subject,median_transitions_per_subject,median_return_coefficient,median_kappa_eq,minimum_retained_sample_gap_days,median_retained_sample_gap_days,maximum_retained_sample_gap_days,robust_multistable_subjects,ci_reportable_subjects
+4,8.0,7.0,-0.9135240680171606,0.05697055145076048,14.0,41.0,124.0,0,0

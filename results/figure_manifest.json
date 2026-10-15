@@ -1,0 +1,13 @@
+{
+  "figure_0_math_snapshot": "illustrative observation-to-drift-to-potential workflow with validation gate",
+  "figure_toy_sampling": "seeded double-well and OU simulations",
+  "figure_toy_sensitivity": "single-panel double-well two-minimum recovery grid; OU control retained in numerical tables",
+  "figure_1_empirical_landscapes": {
+    "boundary_exemplar": "C3037",
+    "interior_exemplar": "C3032"
+  },
+  "figure_2_curvature": "apparent stepwise return coefficient; raw paired-bootstrap ranges shown descriptively",
+  "figure_4_arx_robustness": "in-sample versus leave-one-transition-out loss and max-statistic adjusted permutation p-values",
+  "figure_s1_random_walk_bias": "50,000-simulation random-walk null across measurement-error ratios",
+  "figure_s2_sampling_intervals": "subject-level minimum, median, and maximum elapsed sampling intervals"
+}

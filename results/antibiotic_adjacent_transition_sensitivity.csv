@@ -1,0 +1,5 @@
+subject,antibiotic_positive_observations,all_transitions,antibiotic_adjacent_transitions,remaining_transitions,b_all,b_excluding_antibiotic_adjacent
+C3032,1,7,2,5,-1.3559588735400454,-1.6632847634627355
+C3037,1,7,2,5,0.5360876176084902,-0.2220506033365036
+H4001,0,7,0,7,-1.0335308001343246,-1.0335308001343246
+H4004,0,7,0,7,-0.7935173358999964,-0.7935173358999964

@@ -1,0 +1,5 @@
+subject,occupied_bins,full_data_local_minima,full_data_qualifies_multiwell,maximum_separation_fraction,maximum_relative_barrier,global_minimum_boundary_distance_fraction,bootstrap_valid,bootstrap_requested,bootstrap_valid_fraction,bootstrap_multiwell,multiwell_reproducibility,robust_multistability
+C3032,4,1,False,0.0,0.0,0.4083333333333332,1000,1000,1.0,0,0.0,False
+C3037,4,0,False,0.0,0.0,0.0,997,1000,0.997,0,0.0,False
+H4001,3,1,False,0.0,0.0,0.37916666666666654,983,1000,0.983,0,0.0,False
+H4004,4,1,False,0.0,0.0,0.40416666666666684,997,1000,0.997,0,0.0,False
