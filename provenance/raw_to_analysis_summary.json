@@ -1,0 +1,26 @@
+{
+  "generated_rows": 546,
+  "generated_columns": 133,
+  "reference_rows": 546,
+  "reference_columns": 138,
+  "same_sample_keys": true,
+  "compared_columns": 132,
+  "passing_columns": 132,
+  "maximum_numeric_absolute_difference": 0.0,
+  "all_compared_columns_match": true,
+  "raw_source": "data/source/combined_scfas_table_raw.csv",
+  "metabolomics_source": "data/source/metabolomics_samples.csv",
+  "processed_reference": "data/reference/combined_scfas_table_scored_plus_met.csv",
+  "source_samples": 546,
+  "source_subjects": 106,
+  "matrix_metabolites": 116,
+  "matrix_sample_set_matches_raw": true,
+  "subject_mapping_matches_reference": true,
+  "legacy_derived_columns_excluded": [
+    "F_met",
+    "A_met",
+    "aux_propionate_z",
+    "aux_succinate_z",
+    "aux_lactate_z"
+  ]
+}

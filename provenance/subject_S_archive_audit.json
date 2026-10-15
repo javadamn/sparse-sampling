@@ -1,0 +1,48 @@
+{
+  "archive": "../upload/subject_S_data.zip",
+  "archive_sha256": "8b8ecdcc9394c2d5bd228cb27c7077c2105158d52756ba0e19cf8490c0fa5b04",
+  "csv_files": 21,
+  "duplicate_subject_time_rows": 51,
+  "exact_duplicate_rows": 50,
+  "gap_hours": {
+    "maximum": 552.0,
+    "median": 24.0,
+    "minimum": 24.0
+  },
+  "hmp2_comparison": {
+    "exact_matches_under_common_scalings": {
+      "butyrate_raw": {
+        "1": 0,
+        "10": 0,
+        "100": 0,
+        "1000": 0,
+        "10000": 0
+      },
+      "propionate_raw": {
+        "1": 0,
+        "10": 0,
+        "100": 0,
+        "1000": 0,
+        "10000": 0
+      }
+    },
+    "file": "data/combined_scfas_table_scored_plus_met.csv",
+    "has_acetate_column": false,
+    "has_inulin_label": false,
+    "rows": 546,
+    "sha256": "56122833929d6b0b3ac200d4ca886a10e27300a437e4c0af6e3c23d7c7d26abc",
+    "subjects": 106
+  },
+  "phase_counts": {
+    "Baseline": 105,
+    "Inulin": 158,
+    "Post": 81
+  },
+  "rows": 344,
+  "subject_duration_days": {
+    "maximum": 42.0,
+    "minimum": 13.0
+  },
+  "subjects": 21,
+  "unique_subject_time_pairs": 293
+}

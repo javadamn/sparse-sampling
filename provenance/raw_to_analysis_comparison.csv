@@ -1,0 +1,133 @@
+column,comparison_type,same_missingness,maximum_absolute_difference,equal_values,status
+subject_id,text,True,,True,PASS
+propionate_x,numeric,True,0.0,True,PASS
+butyrate,numeric,True,0.0,True,PASS
+caproate,numeric,True,0.0,True,PASS
+Diagnosis,text,True,,True,PASS
+HBI,text,True,,True,PASS
+SCCAI,text,True,,True,PASS
+Age,numeric,True,0.0,True,PASS
+Age at diagnosis,text,True,,True,PASS
+Race,text,True,,True,PASS
+Hispanic or Latino Origin,text,True,,True,PASS
+Education Level,text,True,,True,PASS
+Occupation,text,True,,True,PASS
+Site Name,text,True,,True,PASS
+"Soft drinks, tea or coffee with sugar (corn syrup, maple syrup, cane sugar, etc)",text,True,,True,PASS
+"Diet soft drinks, tea or coffee with sugar (Stevia, Equal, Splenda etc)",text,True,,True,PASS
+"Fruit juice (orange, apple, cranberry, prune etc.)",text,True,,True,PASS
+Water,text,True,,True,PASS
+"Alcohol (beer, brandy, spirits, hard liquor, wine, aperitif, etc.)",text,True,,True,PASS
+"Yogurt or other foods containing active bacterial cultures (kefir, sauerkraut)",text,True,,True,PASS
+"Dairy (milk, cream, ice cream, cheese, cream cheese)",text,True,,True,PASS
+Probiotic,text,True,,True,PASS
+"Fruits (no juice) (Apples, raisins, bananas, oranges, strawberries, blueberries",text,True,,True,PASS
+"Vegetables (salad, tomatoes, onions, greens, carrots, peppers, green beans, etc)",text,True,,True,PASS
+"1) In the past 2 weeks, have you received any of the following medications",text,True,,True,PASS
+"Beans (tofu, soy, soy burgers, lentils, Mexican beans, lima beans etc)",text,True,,True,PASS
+"Whole grains (wheat, oats, brown rice, rye, quinoa, wheat bread, wheat pasta)",text,True,,True,PASS
+"Starch (white rice, bread, pizza, potatoes, yams, cereals, pancakes, etc.)",text,True,,True,PASS
+Eggs,text,True,,True,PASS
+"Processed meat (other red or white meat such as lunch meat, ham, salami, bologna",text,True,,True,PASS
+"Red meat (beef, hamburger, pork, lamb)",text,True,,True,PASS
+"White meat (chicken, turkey, etc.)",text,True,,True,PASS
+"Shellfish (shrimp, lobster, scallops, etc.)",text,True,,True,PASS
+"Fish (fish nuggets, breaded fish, fish cakes, salmon, tuna, etc.)",text,True,,True,PASS
+"Sweets (pies, jam, chocolate, cake, cookies, etc.)",text,True,,True,PASS
+Antibiotics,text,True,,True,PASS
+Chemotherapy,text,True,,True,PASS
+Immunosuppressants (e.g. oral corticosteroids),text,True,,True,PASS
+"2) In the past 2 weeks, have you undergone a colonoscopy or other procedure",text,True,,True,PASS
+"3) In the past 2 weeks, have you used an oral contrast",text,True,,True,PASS
+"4) In the past 2 weeks, have you had diarrhea?",text,True,,True,PASS
+"5) In the past 2 weeks, have you been hospitalized?",text,True,,True,PASS
+6) Have you ever had bowel surgery?,text,True,,True,PASS
+Tea or coffee no sugar and no sugar replacement,text,True,,True,PASS
+Uveitis,text,True,,True,PASS
+Erythema nodosum,text,True,,True,PASS
+Aphthous ulcers,text,True,,True,PASS
+Pyoderma gangrenosum,text,True,,True,PASS
+Anal fissure,text,True,,True,PASS
+New fistula,text,True,,True,PASS
+Abscess,text,True,,True,PASS
+Arthralgias,text,True,,True,PASS
+Cancer - breast,text,True,,True,PASS
+Cancer - cholangiocarcinoma,text,True,,True,PASS
+Cancer - colon or rectum,text,True,,True,PASS
+Cancer - Hodgkin's lymphoma,text,True,,True,PASS
+Cancer - liver,text,True,,True,PASS
+Cancer - lung,text,True,,True,PASS
+Cancer - lymphoma (not otherwise specified),text,True,,True,PASS
+Cancer - Non-Hodkin's lymphoma,text,True,,True,PASS
+Cancer - ovarian,text,True,,True,PASS
+Cancer - prostate,text,True,,True,PASS
+Celiac sprue,text,True,,True,PASS
+Chronic bronchitis,text,True,,True,PASS
+Dermatitis herpetiformis,text,True,,True,PASS
+Familial Mediterranean fever,text,True,,True,PASS
+Grave's disease,text,True,,True,PASS
+Guillian-Barre Syndrome,text,True,,True,PASS
+Hashimoto's (autoimmune) thyroiditis,text,True,,True,PASS
+Idiopathic pulmonary fibrosis,text,True,,True,PASS
+Idiopathic thrombocytopenia purpura,text,True,,True,PASS
+Irritable bowel syndrome,text,True,,True,PASS
+Alopecia areata,text,True,,True,PASS
+Multiple sclerosis,text,True,,True,PASS
+Myasthenia gravis,text,True,,True,PASS
+Myocarditis,text,True,,True,PASS
+Neuropathy,text,True,,True,PASS
+Pericarditis,text,True,,True,PASS
+Pemphigus vulgaris,text,True,,True,PASS
+Pernicious anemia,text,True,,True,PASS
+Polymyositis or dermatomyositis,text,True,,True,PASS
+Primary biliary cirrhosis,text,True,,True,PASS
+Primary sclerosing cholangitis,text,True,,True,PASS
+Ankylosing spondylitis,text,True,,True,PASS
+Psoriasis,text,True,,True,PASS
+Rheumatoid arthritis,text,True,,True,PASS
+Sarcoidosis,text,True,,True,PASS
+Scleroderma (systemic sclerosis),text,True,,True,PASS
+Sjogren's syndrome,text,True,,True,PASS
+Systemic lupus erythematosis,text,True,,True,PASS
+Temporal arteritis,text,True,,True,PASS
+"Thyroid disease (uncertain diagnosis, not cancer)",text,True,,True,PASS
+Type I Diabetes (Juvenile Diabetes),text,True,,True,PASS
+Vitiligo,text,True,,True,PASS
+Arthritis (uncertain diagnosis),text,True,,True,PASS
+Wegener's granulomatosis,text,True,,True,PASS
+Asthma,text,True,,True,PASS
+Autoimmune hemolytic anemia,text,True,,True,PASS
+Autoimmune hepatitis,text,True,,True,PASS
+Bechet's syndrome,text,True,,True,PASS
+Did the patient sign informed consent?,text,True,,True,PASS
+Did the subject withdraw from the study?,text,True,,True,PASS
+Was subject terminated by investigator?,text,True,,True,PASS
+Site Sub Coll,text,True,,True,PASS
+Specify race,text,True,,True,PASS
+Week Number,text,True,,True,PASS
+Date of Receipt,datetime,True,,True,PASS
+Interval days,text,True,,True,PASS
+Visit number,numeric,True,0.0,True,PASS
+Interval,numeric,True,0.0,True,PASS
+Interval Name,text,True,,True,PASS
+Interval Sequence,numeric,True,0.0,True,PASS
+Partial Endoscopy,text,True,,True,PASS
+baseline_montreal_location,text,True,,True,PASS
+Was HBI completed?,text,True,,True,PASS
+General wellbeing,text,True,,True,PASS
+Abdominal pain,text,True,,True,PASS
+Number of liquid or very soft stools in the past 24 hours:,text,True,,True,PASS
+Abdominal mass,text,True,,True,PASS
+Was SCCAI completed?,text,True,,True,PASS
+Bowel frequency during the day,text,True,,True,PASS
+Bowel frequency during the night,text,True,,True,PASS
+Urgency of defecation,text,True,,True,PASS
+Blood in the stool,text,True,,True,PASS
+cholate,numeric,True,0.0,True,PASS
+glycocholate,numeric,True,0.0,True,PASS
+imidazolelactate,numeric,True,0.0,True,PASS
+indole-3-propionate,numeric,True,0.0,True,PASS
+lactate,numeric,True,0.0,True,PASS
+lithocholate,numeric,True,0.0,True,PASS
+propionate_y,numeric,True,0.0,True,PASS
+succinate,numeric,True,0.0,True,PASS

@@ -1,0 +1,18 @@
+artifact_or_pattern,classification,decision_reason,canonical_action
+current main and SI TeX,verified current,"Byte-identical to the manuscripts used for the reconstruction",Use as the specification
+combined_scfas_table_raw.csv,canonical source,"546 unique HMP2 sample IDs with raw SCFA and metadata",Bundled under data/source
+metabolomics_samples.csv,canonical source,"116 exact metabolite rows across the same 546 sample IDs",Bundled under data/source
+combined_scfas_table_scored_plus_met.csv,verified reference,"Reconstructed source columns and intensities agree at machine precision",Bundled under data/reference for comparison
+preprocess_add_met_inputs.py,provenance only,"Reproduces the legacy table but uses ambiguous substring feature matching",Replaced by prepare_input.py with exact names
+F_met A_met and aux_* fields,excluded,"Not required by the manuscript-defined rerun; aux_lactate_z is actually imidazolelactate",Absent from clean analysis input
+toy_models_synthetic_sampling.py,provenance only,"Selected seed and parameters reproduce the qualitative example",Reimplemented and extended with 20-seed sensitivity
+resilience_curvature_subjects.csv and curvature script,provenance only,"Point estimates reproduce a historical six-pair branch; normalization and CI settings differ",Not used to set canonical results
+estimate_potential_landscape.py,excluded,"Raw-unit minima counter double-counts a single bowl",Replaced by nonparametric topology implementation
+legacy degree-1/2 multistability scripts,excluded,"Model class cannot represent two stable equilibria separated by an unstable equilibrium",Replaced by SI-described nonparametric reconstruction
+screen_metabolite_drivers.py and saved screen,provenance only,"Numerically reproducible but uses a different ten-subject cohort",Canonical screen uses the four-subject cohort
+cross-feed preprocessing and outputs,excluded,"Depend on mislabeled auxiliary lactate and are not required by the stated ARX analysis",Not used
+unsuffixed fit/prediction branch,excluded,"Different alignment and settings from the current manuscript",Not used
+files with suffix (1),excluded,"Incompatible raw-scale branch with a different cohort and schema",Not used
+antibiotic subgroup output,excluded,"Yes/No exposures were lost during numeric coercion",Not used
+repaired schematic and failed-script logs,audit evidence,"Document historical rendering and dimension failures",Summarized only
+source hashes verification tables and run logs,audit evidence,"Useful for integrity and diagnosis but not analysis inputs",Summarized in LEGACY_ARCHIVE_AUDIT.md
