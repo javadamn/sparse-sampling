@@ -1,0 +1,76 @@
+{
+  "input_file": "data/analysis_input.csv",
+  "source_files": {
+    "raw_metadata_scfa": "data/source/combined_scfas_table_raw.csv",
+    "metabolomics_matrix": "data/source/metabolomics_samples.csv"
+  },
+  "reference_processed_file": "data/reference/combined_scfas_table_scored_plus_met.csv",
+  "subject_column": "subject_id",
+  "time_column": "Date of Receipt",
+  "sample_column": "sample_id",
+  "butyrate_column": "butyrate",
+  "analysis_subjects": ["C3032", "C3037", "H4001", "H4004"],
+  "metabolites": [
+    "cholate",
+    "glycocholate",
+    "imidazolelactate",
+    "indole-3-propionate",
+    "lactate",
+    "lithocholate",
+    "propionate_y",
+    "succinate"
+  ],
+  "minimum_transitions_documented": 6,
+  "minimum_transitions_canonical": 7,
+  "minimum_state_sd": 1e-08,
+  "bootstrap_replicates": 1000,
+  "bootstrap_valid_fraction": 0.8,
+  "confidence_level": 0.95,
+  "seed": 20261008,
+  "landscape": {
+    "n_bins": 5,
+    "min_bin_count": 1,
+    "grid_points": 241,
+    "drift_smooth_window": 17,
+    "potential_smooth_window": 11,
+    "minimum_separation_fraction": 0.2,
+    "minimum_barrier_fraction": 0.05,
+    "minimum_reproducibility": 0.8
+  },
+  "huber_delta": 0.5,
+  "toy": {
+    "dt": 0.01,
+    "T": 600.0,
+    "sigma": 0.6,
+    "tilt": 0.0,
+    "ou_theta": 1.2,
+    "ou_mu": 0.0,
+    "double_well_z0": -1.0,
+    "ou_z0": 0.6,
+    "dense_every": 1,
+    "sparse_every": 225,
+    "n_bins": 30,
+    "minimum_bin_count": 10,
+    "seed": 0,
+    "sensitivity": {
+      "seeds": 200,
+      "sigmas": [0.4, 0.5, 0.6, 0.7, 0.8],
+      "sampling_every": [50, 100, 150, 225, 300]
+    }
+  },
+  "reviewer_analyses": {
+    "random_walk": {
+      "simulations": 50000,
+      "measurement_error_sd_ratios": [0.0, 0.25, 0.5, 1.0],
+      "seed": 20261009
+    },
+    "threshold_sensitivity": {
+      "bootstrap_replicates": 500,
+      "separation_fractions": [0.15, 0.2, 0.25],
+      "barrier_fractions": [0.025, 0.05, 0.1],
+      "reproducibility_fractions": [0.7, 0.8, 0.9],
+      "seed": 20261010
+    }
+  }
+}
+
